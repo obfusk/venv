@@ -1,3 +1,2 @@
 #!/bin/bash
-. "${VENV:-.venv}"/bin/activate
-"$@"
+set -e; . "${VENV:-.venv}"/bin/activate; exec "$@"
