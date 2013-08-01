@@ -1,0 +1,3 @@
+#!/bin/bash
+. "${VENV:-.venv}"/bin/activate
+"$@"
